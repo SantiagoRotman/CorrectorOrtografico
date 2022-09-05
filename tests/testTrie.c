@@ -23,7 +23,7 @@ void testTrieInsert(){
 
     TrieInsert(trie, aux);
 
-    for(int pos = 0; pos < strlen(aux); pos++){
+    for(int pos = 0; pos < (int)strlen(aux); pos++){
         for(int i = 0; i < ALPHABET_SIZE; i++){
             if(aux[pos] == 'a'+i)   assert(trie->children[i] != NULL);
             else    assert(trie->children[i] == NULL);
