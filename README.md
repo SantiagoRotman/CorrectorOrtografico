@@ -12,19 +12,25 @@ $./main diccionario.txt texto.txt salida
 ```
 
 
-Para correr los test:
+### Para correr los test:
 Test del los componentes del trie:
 ```
 $make testTrie
+```
+```
 $./testTrie
 ```
 Test del los componentes de la cola:
 ```
 $make testQueue
+```
+```
 $./testQueue
 ```
 Test de busqueda:
 ```
 $make testSearch
+```
+```
 $./testSearch
 ```
